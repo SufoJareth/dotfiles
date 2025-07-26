@@ -1,0 +1,10 @@
+[Unit]
+Description=Set PipeWire default sink to Headphones
+After=pipewire.service wireplumber.service
+
+[Service]
+ExecStart=/usr/bin/wpctl set-default 48
+Type=oneshot
+
+[Install]
+WantedBy=default.target

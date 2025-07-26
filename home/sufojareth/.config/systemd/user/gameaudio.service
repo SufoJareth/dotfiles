@@ -1,0 +1,11 @@
+[Unit]
+Description=Create GAMEAUDIO sink and link to Headphones
+After=pipewire.service wireplumber.service graphical-session.target
+Requires=pipewire.service
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/setup_gameaudio.py
+
+[Install]
+WantedBy=default.target

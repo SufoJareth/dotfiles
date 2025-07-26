@@ -1,0 +1,14 @@
+[Unit]
+Description=Auto-route games in list audio to GAMEAUDIO sink
+After=pipewire.service gameaudio.service
+Requires=pipewire.service gameaudio.service
+
+[Service]
+ExecStart=%h/.local/bin/route_other_games_to_gameaudio.py
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

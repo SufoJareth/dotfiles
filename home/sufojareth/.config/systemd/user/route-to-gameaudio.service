@@ -1,0 +1,14 @@
+[Unit]
+Description=Auto-route MechWarrior Online audio to GAMEAUDIO sink
+After=pipewire.service gameaudio.service
+Requires=pipewire.service gameaudio.service
+
+[Service]
+ExecStart=%h/.local/bin/route_to_gameaudio.py
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target
