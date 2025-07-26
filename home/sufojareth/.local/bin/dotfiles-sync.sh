@@ -2,7 +2,7 @@
 
 DOTFILES_DIR="$HOME/git/dotfiles"
 GIT_REMOTE="origin"
-GIT_BRANCH="main"
+GIT_BRANCH="master"
 
 INCLUDE=(
     "$HOME/.bashrc"
