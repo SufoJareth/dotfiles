@@ -15,6 +15,11 @@ INCLUDE=(
     "$HOME/.var/app/com.obsproject.Studio/config/obs-studio"
 )
 
+# Simple KDE-friendly notification wrapper
+notify() {
+    /usr/bin/notify-send -u low -a "Dotfiles Backup" "$1"
+}
+
 mkdir -p "$DOTFILES_DIR"
 
 echo "🔁 Syncing tracked files to $DOTFILES_DIR..."
@@ -38,8 +43,15 @@ if [[ -n $(git status --porcelain) ]]; then
     echo "📝 Changes detected, committing..."
     git add .
     git commit -m "Auto-backup on $(date '+%Y-%m-%d %H:%M:%S')"
-    git push "$GIT_REMOTE" "$GIT_BRANCH"
-    echo "✅ Dotfiles synced and pushed."
+
+    if git push "$GIT_REMOTE" "$GIT_BRANCH"; then
+        echo "✅ Dotfiles synced and pushed."
+        notify "✅ Dotfiles synced to GitHub"
+    else
+        echo "❌ Git push failed"
+        notify "❌ Dotfiles sync failed (push error)"
+    fi
 else
     echo "✅ No changes to sync."
+    notify "📁 No changes in dotfiles to sync"
 fi
