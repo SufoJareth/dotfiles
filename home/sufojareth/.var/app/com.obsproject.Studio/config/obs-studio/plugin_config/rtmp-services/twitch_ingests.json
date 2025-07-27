@@ -22,18 +22,18 @@
             "_id": 2,
             "availability": 1.0,
             "default": false,
-            "name": "US East: Ashburn, VA (5)",
-            "url_template": "rtmp://iad05.contribute.live-video.net/app/{stream_key}",
-            "url_template_secure": "rtmps://iad05.contribute.live-video.net/app/{stream_key}",
+            "name": "NA: Canada, Quebec",
+            "url_template": "rtmp://ymq03.contribute.live-video.net/app/{stream_key}",
+            "url_template_secure": "rtmps://ymq03.contribute.live-video.net/app/{stream_key}",
             "priority": 2
         },
         {
             "_id": 3,
             "availability": 1.0,
             "default": false,
-            "name": "NA: Canada, Quebec",
-            "url_template": "rtmp://ymq03.contribute.live-video.net/app/{stream_key}",
-            "url_template_secure": "rtmps://ymq03.contribute.live-video.net/app/{stream_key}",
+            "name": "US East: Ashburn, VA (5)",
+            "url_template": "rtmp://iad05.contribute.live-video.net/app/{stream_key}",
+            "url_template_secure": "rtmps://iad05.contribute.live-video.net/app/{stream_key}",
             "priority": 3
         },
         {
@@ -409,18 +409,18 @@
             "_id": 45,
             "availability": 1.0,
             "default": false,
-            "name": "Asia: Taiwan, Taipei (1)",
-            "url_template": "rtmp://tpe01.contribute.live-video.net/app/{stream_key}",
-            "url_template_secure": "rtmps://tpe01.contribute.live-video.net/app/{stream_key}",
+            "name": "Asia: India, Mumbai (30)",
+            "url_template": "rtmp://aps30.contribute.live-video.net/app/{stream_key}",
+            "url_template_secure": "rtmps://aps30.contribute.live-video.net/app/{stream_key}",
             "priority": 45
         },
         {
             "_id": 46,
             "availability": 1.0,
             "default": false,
-            "name": "Asia: India, Mumbai (30)",
-            "url_template": "rtmp://aps30.contribute.live-video.net/app/{stream_key}",
-            "url_template_secure": "rtmps://aps30.contribute.live-video.net/app/{stream_key}",
+            "name": "Asia: Taiwan, Taipei (1)",
+            "url_template": "rtmp://tpe01.contribute.live-video.net/app/{stream_key}",
+            "url_template_secure": "rtmps://tpe01.contribute.live-video.net/app/{stream_key}",
             "priority": 46
         },
         {
