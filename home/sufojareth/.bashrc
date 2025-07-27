@@ -24,3 +24,4 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 alias obs="/usr/local/bin/obs"
+alias audiostream="wpctl status | awk '/^ └─ Streams:/, /^Video/ { if (\$1 ~ /^[0-9]+\./) print }'"
