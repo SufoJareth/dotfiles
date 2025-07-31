@@ -1,6 +1,6 @@
 {
     "DesktopAudioDevice1": {
-        "prev_ver": 520093700,
+        "prev_ver": 520159234,
         "name": "Game Audio",
         "uuid": "e1827aa7-4ff4-4667-a7cc-d04938821304",
         "id": "pulse_output_capture",
@@ -31,7 +31,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 520093700,
+        "prev_ver": 520159234,
         "name": "Mic",
         "uuid": "1278fa72-1065-44e5-bf27-fa7292b43ebd",
         "id": "pulse_input_capture",
@@ -71,7 +71,7 @@
     "name": "Untitled",
     "sources": [
         {
-            "prev_ver": 520093700,
+            "prev_ver": 520159234,
             "name": "Scene",
             "uuid": "46b681b8-c1cd-421e-b05d-c2f9c4256335",
             "id": "scene",
@@ -213,16 +213,17 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         },
         {
-            "prev_ver": 520093700,
+            "prev_ver": 520159234,
             "name": "Screen Capture (PipeWire)",
             "uuid": "cd2306df-7aa7-4ac2-9d84-93348d796743",
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": "8c0f1ff8-7779-42c6-8fb9-5b0a7d8136ab"
+                "RestoreToken": "968b1fa7-d17c-435e-8f7f-85f41f646010"
             },
             "mixers": 0,
             "sync": 0,
@@ -242,7 +243,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093700,
+                    "prev_ver": 520159234,
                     "name": "Color Correction",
                     "uuid": "ac0aafb0-e9bd-4719-aaf2-82552c30269a",
                     "id": "color_filter",
@@ -272,7 +273,7 @@
             ]
         },
         {
-            "prev_ver": 520093700,
+            "prev_ver": 520159234,
             "name": "View Count",
             "uuid": "c23ab359-e27f-469f-89bd-58e9f1e3e79e",
             "id": "browser_source",
@@ -332,11 +333,12 @@
     ],
     "transitions": [],
     "saved_projectors": [],
+    "canvases": [],
     "current_transition": "Fade",
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": 0,
+    "scaling_level": -23,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "modules": {
