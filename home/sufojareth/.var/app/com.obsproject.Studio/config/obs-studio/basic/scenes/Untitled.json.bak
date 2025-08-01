@@ -244,6 +244,32 @@
             "filters": [
                 {
                     "prev_ver": 520159234,
+                    "name": "Sharpen",
+                    "uuid": "4dfb3599-db64-4b83-b492-8d6ee7b26a7f",
+                    "id": "sharpness_filter",
+                    "versioned_id": "sharpness_filter_v2",
+                    "settings": {
+                        "sharpness": 0.20000000000000001
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 520159234,
                     "name": "Color Correction",
                     "uuid": "ac0aafb0-e9bd-4719-aaf2-82552c30269a",
                     "id": "color_filter",

@@ -1,1 +1,1 @@
-{"bitrate":15000,"keyint_sec":2,"tune":"","profile":"high","preset":"faster"}
+{"bitrate":15000,"keyint_sec":2,"tune":"","profile":"high","preset":"veryfast","x264opts":"bframes=2 subme=6 trellis=1 aq-mode=2 aq-strength=1.2 psy-rd=1.0:0.0\n"}
