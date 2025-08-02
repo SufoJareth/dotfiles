@@ -138,7 +138,7 @@
                     {
                         "name": "View Count",
                         "source_uuid": "c23ab359-e27f-469f-89bd-58e9f1e3e79e",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -382,8 +382,8 @@
         }
     },
     "resolution": {
-        "x": 2560,
-        "y": 1440
+        "x": 1920,
+        "y": 1080
     },
     "version": 2
 }
