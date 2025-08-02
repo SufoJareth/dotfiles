@@ -1,0 +1,267 @@
+17:48:03.141: Platform: Wayland
+17:48:03.141: CPU Name: AMD Ryzen 7 5700X3D 8-Core Processor
+17:48:03.141: CPU Speed: 4045.075MHz
+17:48:03.142: Physical Cores: 8, Logical Cores: 16
+17:48:03.142: Physical Memory: 31994MB Total, 4521MB Free
+17:48:03.142: Kernel Version: Linux 6.15.8-200.fc42.x86_64
+17:48:03.142: Flatpak Branch: stable
+17:48:03.142: Flatpak Arch: x86_64
+17:48:03.142: Flatpak Runtime: runtime/org.kde.Platform/x86_64/6.8
+17:48:03.142: App Extensions:
+17:48:03.142:  - com.obsproject.Studio.Locale
+17:48:03.142: Runtime Extensions:
+17:48:03.142:  - org.freedesktop.Platform.GL.default
+17:48:03.142:  - org.freedesktop.Platform.openh264
+17:48:03.142:  - org.gtk.Gtk3theme.Breeze
+17:48:03.142:  - org.kde.Platform.Locale
+17:48:03.142:  - org.freedesktop.Platform.GL.default
+17:48:03.142: Flatpak Framework Version: 1.16.1
+17:48:03.142: Desktop Environment: KDE (KDE)
+17:48:03.142: Session Type: wayland
+17:48:03.144: Current Date/Time: 2025-08-01, 05:48:03 PM
+17:48:03.144: Browser Hardware Acceleration: true
+17:48:03.144: Qt Version: 6.8.3 (runtime), 6.8.3 (compiled)
+17:48:03.144: Portable mode: false
+17:48:03.188: OBS 31.1.2 (linux)
+17:48:03.188: ---------------------------------
+17:48:03.192: ---------------------------------
+17:48:03.192: audio settings reset:
+17:48:03.192: 	samples per sec: 48000
+17:48:03.192: 	speakers:        2
+17:48:03.192: 	max buffering:   960 milliseconds
+17:48:03.192: 	buffering type:  dynamically increasing
+17:48:03.193: ---------------------------------
+17:48:03.194: Initializing OpenGL...
+17:48:03.194: Using EGL/Wayland
+17:48:03.202: Initialized EGL 1.5
+17:48:03.215: Loading up OpenGL on adapter AMD AMD Radeon RX 6700 XT (radeonsi, navi22, LLVM 19.1.7, DRM 3.63, 6.15.8-200.fc42.x86_64)
+17:48:03.215: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.1.3 (git-ba95e694fe), shading language 4.60
+17:48:03.252: ---------------------------------
+17:48:03.252: video settings reset:
+17:48:03.252: 	base resolution:   2560x1440
+17:48:03.252: 	output resolution: 2560x1440
+17:48:03.252: 	downscale filter:  Lanczos
+17:48:03.252: 	fps:               60/1
+17:48:03.252: 	format:            NV12
+17:48:03.252: 	YUV mode:          Rec. 709/Partial
+17:48:03.252: NV12 texture support enabled
+17:48:03.252: P010 texture support not available
+17:48:03.255: Audio monitoring device:
+17:48:03.255: 	name: Default
+17:48:03.255: 	id: default
+17:48:03.256: ---------------------------------
+17:48:03.275: No AJA devices found, skipping loading AJA UI plugin
+17:48:03.275: Failed to initialize module 'aja-output-ui.so'
+17:48:03.289: No AJA devices found, skipping loading AJA plugin
+17:48:03.289: Failed to initialize module 'aja.so'
+17:48:03.563: [pipewire] Available capture sources:
+17:48:03.563: [pipewire]     - Monitor source
+17:48:03.563: [pipewire]     - Window source
+17:48:03.592: v4l2loopback not installed, virtual camera not registered
+17:48:03.601: [obs-browser]: Version 2.25.3
+17:48:03.601: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.0.0-6533-fix-stutter-and-osr-extra-info.3040+ga0ca18e+chromium-127.0.6533.120 (compiled)
+17:48:03.611: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+17:48:03.616: VAAPI: API version 1.22
+17:48:03.617: FFmpeg VAAPI H264 encoding supported
+17:48:03.621: FFmpeg VAAPI AV1 encoding not supported
+17:48:03.626: FFmpeg VAAPI HEVC encoding supported
+17:48:03.652: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+17:48:03.652: 
+17:48:03.652: NVENC not supported
+17:48:03.652: Failed to initialize module 'obs-nvenc.so'
+17:48:03.722: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.2 | RPC Version: 1)
+17:48:03.722: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.3 | Qt version (run-time): 6.8.3
+17:48:03.722: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+17:48:03.722: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+17:48:03.727: [obs-websocket] [obs_module_load] Module loaded.
+17:48:03.750: ---------------------------------
+17:48:03.750:   Loaded Modules:
+17:48:03.750:     text-freetype2.so
+17:48:03.750:     rtmp-services.so
+17:48:03.750:     obs-x264.so
+17:48:03.750:     obs-websocket.so
+17:48:03.750:     obs-webrtc.so
+17:48:03.750:     obs-vst.so
+17:48:03.750:     obs-transitions.so
+17:48:03.750:     obs-qsv11.so
+17:48:03.750:     obs-outputs.so
+17:48:03.750:     obs-libfdk.so
+17:48:03.750:     obs-filters.so
+17:48:03.750:     obs-ffmpeg.so
+17:48:03.750:     obs-browser.so
+17:48:03.750:     linux-v4l2.so
+17:48:03.750:     linux-pulseaudio.so
+17:48:03.750:     linux-pipewire.so
+17:48:03.750:     linux-jack.so
+17:48:03.750:     linux-capture.so
+17:48:03.750:     image-source.so
+17:48:03.750:     frontend-tools.so
+17:48:03.750: ---------------------------------
+17:48:03.750: ---------------------------------
+17:48:03.750: Available Encoders:
+17:48:03.750:   Video Encoders:
+17:48:03.750: 	- ffmpeg_svt_av1 (SVT-AV1)
+17:48:03.750: 	- ffmpeg_aom_av1 (AOM AV1)
+17:48:03.751: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+17:48:03.751: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+17:48:03.751: 	- obs_x264 (x264)
+17:48:03.751:   Audio Encoders:
+17:48:03.751: 	- ffmpeg_aac (FFmpeg AAC)
+17:48:03.751: 	- ffmpeg_opus (FFmpeg Opus)
+17:48:03.751: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+17:48:03.751: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+17:48:03.751: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+17:48:03.751: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+17:48:03.751: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+17:48:03.751: 	- libfdk_aac (libfdk AAC)
+17:48:03.751: ==== Startup complete ===============================================
+17:48:03.791: All scene data cleared
+17:48:03.791: ------------------------------------------------
+17:48:03.796: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.7) 15.0.0'
+17:48:03.796: pulse-input: Audio format: float32le, 48000 Hz, 2 channels
+17:48:03.796: pulse-input: Started recording from 'GAMEAUDIO.monitor'
+17:48:03.796: [Loaded global audio device]: 'Game Audio'
+17:48:03.796: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.7) 15.0.0'
+17:48:03.796: pulse-input: Audio format: float32le, 48000 Hz, 1 channels
+17:48:03.796: pulse-input: Started recording from 'alsa_input.usb-Focusrite_Scarlett_Solo_USB_Y7G20GM3312CC3-00.HiFi__Mic1__source'
+17:48:03.796: [Loaded global audio device]: 'Mic'
+17:48:03.797: PipeWire initialized
+17:48:03.799: Switched to scene 'Scene'
+17:48:03.799: ------------------------------------------------
+17:48:03.799: Loaded scenes:
+17:48:03.799: - scene 'Scene':
+17:48:03.799:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+17:48:03.799:         - filter: 'Sharpen' (sharpness_filter_v2)
+17:48:03.799:         - filter: 'Color Correction' (color_filter_v2)
+17:48:03.799:     - source: 'View Count' (browser_source)
+17:48:03.799: ------------------------------------------------
+17:48:03.880: [pipewire] Screencast session created
+17:48:03.932: [pipewire] Asking for monitor and window
+17:48:04.387: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Mic)
+17:48:04.387: 
+17:48:04.865: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+17:48:07.239: [pipewire] source selected, setting up screencast
+17:48:07.250: [pipewire] Server version: 1.4.7
+17:48:07.250: [pipewire] Library version: 1.2.4
+17:48:07.250: [pipewire] Header version: 1.2.4
+17:48:07.250: [pipewire] Created stream 0x5561b23b6920
+17:48:07.250: [pipewire] Stream 0x5561b23b6920 state: "connecting" (error: none)
+17:48:07.250: [pipewire] Playing stream 0x5561b23b6920
+17:48:07.251: [pipewire] Stream 0x5561b23b6920 state: "paused" (error: none)
+17:48:07.315: [pipewire] Negotiated format:
+17:48:07.316: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+17:48:07.316: [pipewire]     Modifier: 0x0
+17:48:07.316: [pipewire]     Size: 2560x1440
+17:48:07.316: [pipewire]     Framerate: 0/1
+17:48:07.316: [pipewire] Negotiated format:
+17:48:07.316: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+17:48:07.316: [pipewire]     Modifier: 0x20000001896bb03
+17:48:07.316: [pipewire]     Size: 2560x1440
+17:48:07.316: [pipewire]     Framerate: 0/1
+17:48:07.318: [pipewire] Stream 0x5561b23b6920 state: "streaming" (error: none)
+17:48:26.300: ---------------------------------
+17:48:26.300: [x264 encoder: 'advanced_video_stream'] preset: veryfast
+17:48:26.300: [x264 encoder: 'advanced_video_stream'] profile: high
+17:48:26.300: [x264 encoder: 'advanced_video_stream'] settings:
+17:48:26.300: 	rate_control: CBR
+17:48:26.300: 	bitrate:      15000
+17:48:26.300: 	buffer size:  15000
+17:48:26.300: 	crf:          23
+17:48:26.300: 	fps_num:      60
+17:48:26.300: 	fps_den:      1
+17:48:26.300: 	width:        2560
+17:48:26.300: 	height:       1440
+17:48:26.300: 	keyint:       120
+17:48:26.300: 
+17:48:26.300: [x264 encoder: 'advanced_video_stream'] custom settings: 
+17:48:26.300: 	bframes = 2
+17:48:26.300: 	subme = 6
+17:48:26.300: 	trellis = 1
+17:48:26.300: 	aq-mode = 2
+17:48:26.300: 	aq-strength = 1.2
+17:48:26.300: 	psy-rd = 1.0:0.0
+17:48:26.300: 
+17:48:26.307: libfdk_aac encoder created
+17:48:26.307: libfdk_aac bitrate: 160, channels: 2
+17:48:26.307: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmps://b.rtmps.youtube.com:443/live2?backup=1...
+17:48:26.763: [rtmp stream: 'adv_stream'] Connection to rtmps://b.rtmps.youtube.com:443/live2?backup=1 (173.194.77.134) successful
+17:48:26.765: ==== Streaming Start ===============================================
+17:49:04.074: [rtmp stream: 'adv_stream'] User stopped the stream
+17:49:04.074: Output 'adv_stream': stopping
+17:49:04.074: Output 'adv_stream': Total frames output: 2201
+17:49:04.074: Output 'adv_stream': Total drawn frames: 2266
+17:49:04.075: ==== Streaming Stop ================================================
+17:49:04.154: libfdk_aac encoder destroyed
+17:49:04.815: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+17:49:37.341: ---------------------------------
+17:49:37.341: video settings reset:
+17:49:37.341: 	base resolution:   1920x1080
+17:49:37.341: 	output resolution: 1920x1080
+17:49:37.341: 	downscale filter:  Lanczos
+17:49:37.341: 	fps:               60/1
+17:49:37.341: 	format:            NV12
+17:49:37.341: 	YUV mode:          Rec. 709/Partial
+17:49:37.341: NV12 texture support enabled
+17:49:37.341: P010 texture support not available
+17:49:37.343: Settings changed (outputs, video)
+17:49:37.343: ------------------------------------------------
+17:49:57.761: Settings changed (outputs)
+17:49:57.761: ------------------------------------------------
+17:50:07.957: ---------------------------------
+17:50:07.957: [x264 encoder: 'advanced_video_stream'] preset: veryfast
+17:50:07.957: [x264 encoder: 'advanced_video_stream'] profile: high
+17:50:07.957: [x264 encoder: 'advanced_video_stream'] settings:
+17:50:07.957: 	rate_control: CBR
+17:50:07.957: 	bitrate:      9000
+17:50:07.957: 	buffer size:  9000
+17:50:07.957: 	crf:          23
+17:50:07.957: 	fps_num:      60
+17:50:07.957: 	fps_den:      1
+17:50:07.957: 	width:        1920
+17:50:07.957: 	height:       1080
+17:50:07.957: 	keyint:       120
+17:50:07.957: 
+17:50:07.957: [x264 encoder: 'advanced_video_stream'] custom settings: 
+17:50:07.957: 	bframes = 2
+17:50:07.957: 	subme = 6
+17:50:07.957: 	trellis = 1
+17:50:07.957: 	aq-mode = 2
+17:50:07.957: 	aq-strength = 1.2
+17:50:07.957: 	psy-rd = 1.0:0.0
+17:50:07.957: 
+17:50:07.961: libfdk_aac encoder created
+17:50:07.961: libfdk_aac bitrate: 160, channels: 2
+17:50:07.961: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmps://b.rtmps.youtube.com:443/live2?backup=1...
+17:50:08.364: [rtmp stream: 'adv_stream'] Connection to rtmps://b.rtmps.youtube.com:443/live2?backup=1 (173.194.77.134) successful
+17:50:08.365: ==== Streaming Start ===============================================
+19:32:27.807: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:33:27.808: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:38:12.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:39:12.809: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:41:13.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:42:13.809: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:44:14.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:45:14.809: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:47:15.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:48:15.809: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:50:16.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:51:16.808: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:53:17.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:54:17.809: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:56:18.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:57:18.809: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+19:59:19.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+20:00:19.809: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+20:02:20.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+20:03:20.808: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+20:05:21.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+20:06:21.809: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+20:08:22.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+20:09:22.809: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+20:11:23.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+20:12:23.809: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+20:14:24.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+20:15:24.808: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+20:17:25.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+20:18:25.809: [obs-browser: 'View Count'] Error: Uncaught (in promise) Error: No available storage method found. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
+20:20:26.806: [obs-browser: 'View Count'] Error: Uncaught SecurityError: Failed to set the 'cookie' property on 'Document': The document is sandboxed and lacks the 'allow-same-origin' flag. (https://streamlabs.com/mixed/assets/widgets/js/viewercount.custom.js?id=3e4eb75437a4fc176e78:2)
